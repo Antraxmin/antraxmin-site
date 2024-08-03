@@ -10,7 +10,7 @@ export default function Home() {
       
       <section className="mb-12">
         <div className="flex items-center mb-4">
-          <Image src="/profile.jpeg" alt="임채민" width={80} height={80} className="rounded-full mr-4" />
+          <Image src="/profile.png" alt="임채민" width={80} height={80} className="rounded-full mr-4" />
           <div>
             <h2 className="text-xl font-bold">임채민</h2>
             <p>Software Engineer</p>
