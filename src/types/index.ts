@@ -10,11 +10,18 @@ export type TechCategory = 'Proficient' | 'Frequently Used' | 'Unprofessional bu
 
 export type Technology = {
   name: string;
-  icon: string;
   color: string;
 };
 
 export type TechStack = {
   category: TechCategory;
   technologies: Technology[];
+};
+
+  
+export type Project = {
+    title: string;
+    description: string;
+    image: string;
+    technologies: Technology[];
 };
