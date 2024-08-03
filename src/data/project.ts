@@ -39,6 +39,14 @@ export const projects: Project[] = [
       ],
   },
   {
+    title: "Festival People",
+    description: "2023 순천향대학교 피닉시아 축제 웹사이트",
+    image: "/projects/festival-people.png",
+    technologies: [
+        { name: "React", color: "bg-gray-400" },
+      ],
+  },
+  {
     title: "Focus-Guard",
     description: "주의력 분산 방지를 위한 크롬 확장 프로그램",
     image: "/projects/focus-guard.png",
@@ -51,6 +59,23 @@ export const projects: Project[] = [
     description: "서울시 공공자전거 이용현황 알림 웹서비스",
     image: "/projects/seoul-bike.png",
     technologies: [
+        { name: "Python", color: "bg-gray-400" },
+      ],
+  },
+  {
+    title: "더치페it",
+    description: "OCR 기반의 더치페이 어플리케이션",
+    image: "/projects/dutch-pay-it.png",
+    technologies: [
+        { name: "Flutter", color: "bg-gray-400" },
+      ],
+  },
+  {
+    title: "CVTV",
+    description: "객체 추적 및 사물인터넷 기술 기반의 실시간 CCTV",
+    image: "/projects/cvtv.png",
+    technologies: [
+        { name: "Opencv", color: "bg-gray-400" },
         { name: "Python", color: "bg-gray-400" },
       ],
   },
