@@ -1,4 +1,5 @@
 import CareerHistory from '@/components/CareerHistory';
+import TechStack from '@/components/TechStack';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -23,6 +24,7 @@ export default function Home() {
         </div>
       </section>
       <CareerHistory />
+      <TechStack />
 
       {/* <section className="mb-12">
         <h3 className="text-xl font-bold mb-4">기술 스택</h3>
