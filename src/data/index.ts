@@ -9,6 +9,13 @@ export const experiences: Experience[] = [
       type: 'education',
     },
     {
+        organization: '구름톤 유니브',
+        logo: '/logos/9oormthon-univ.png',
+        role: '3기 미르미',
+        period: '24.07 → ING',
+        type: 'education',
+      },
+    {
       organization: 'ECOHI',
       logo: '/logos/ecohi.jpeg',
       role: 'Software Engineer',
