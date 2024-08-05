@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 const ProfileHero = () => {
-    return <section>
+    return <section className=" mb-8">
     <div className="flex items-center mb-4">
       <Image src="/profile.png" alt="임채민" width={80} height={80} className="rounded-full mr-4" />
       <div>

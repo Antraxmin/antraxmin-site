@@ -4,7 +4,7 @@ import ProfileHero from './ProfileHero';
 
 const Header = () => {
   return (
-    <header className="mb-12 relative">
+    <header className="mb-10 relative">
       <div className="flex justify-between items-center mb-8">
         <h1 className="text-2xl font-bold">Antraxmin</h1>
         <div className="flex items-center space-x-4">
@@ -18,7 +18,6 @@ const Header = () => {
           </nav>
         </div>
       </div>
-      <ProfileHero />
     </header>
   );
 };
