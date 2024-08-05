@@ -1,12 +1,13 @@
 import Link from 'next/link';
 import { getAllPosts } from '@/lib/getPosts';
+import Header from '@/components/Header';
 
 export default function BlogPage() {
   const posts = getAllPosts();
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-8">Blog Posts</h1>
+    <div className="container mx-auto text-white min-h-screen p-8">
+      <Header />
       <div className="space-y-8">
         {posts.map((post) => (
           <article key={post.slug} className="border-b pb-8">
