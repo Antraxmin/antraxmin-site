@@ -1,7 +1,7 @@
 ---
 title: 'JSX와 가상 DOM의 작동 원리'
 date: '2024-01-07'
-excerpt: '이것은 첫 번째 블로그 포스트의 요약입니다.'
+excerpt: ''
 ---
 
 ## JSX란?
