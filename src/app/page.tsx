@@ -6,7 +6,7 @@ import ProfileHero from '@/components/ProfileHero';
 
 export default function Home() {
   return (
-    <div className="text-white min-h-screen p-8">
+    <div className="text-white min-h-screen p-4 md:p-8">
       <Header />
       <ProfileHero />
       <CareerHistory />

@@ -6,7 +6,7 @@ export default function BlogPage() {
   const posts = getAllPosts();
 
   return (
-    <div className="container mx-auto text-white min-h-screen p-8">
+    <div className="container mx-auto text-white min-h-screen p-4 md:p-8">
       <Header />
       <div className="space-y-8">
         {posts.map((post) => (
